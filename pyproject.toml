@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "app-yolov8-detect"
+version = "0.1.0"
+description = ""
+authors = ["Igor <igor.mart.san@gmail.com>"]
+readme = "README.md"
+packages = [{include = "app_yolov8_detect"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+ultralytics = "^8.0.180"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.25.2"
+
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cu118"
+priority = "explicit"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

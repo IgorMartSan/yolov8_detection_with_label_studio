@@ -1,0 +1,11 @@
+# Coloque os diretórios do projeto
+train: C:\\Users\\igor8\\OneDrive\\Área de Trabalho\\Programação\\Projetos_python\\app_yolov8_detect\\app_yolov8_detect\\dataset_split\\train  # train images (relative to 'path') 4 images
+val: C:\\Users\\igor8\\OneDrive\\Área de Trabalho\\Programação\\Projetos_python\\app_yolov8_detect\\app_yolov8_detect\\dataset_split\\val  # val images (relative to 'path') 4 images
+test: C:\\Users\\igor8\\OneDrive\\Área de Trabalho\\Programação\\Projetos_python\\app_yolov8_detect\\app_yolov8_detect\\dataset_split\\test # test images (optional)
+
+# Classes (80 COCO classes)
+names:
+  0: Emissões Fugitivas
+  1: Casa
+  2: Carro
+  3: Pessoa

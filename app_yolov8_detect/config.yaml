@@ -1,0 +1,8 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+train: C:\\Users\\igor8\\OneDrive\\Área de Trabalho\\Programação\\Projetos_python\\app_yolov8_detect\\app_yolov8_detect\\dataset_split\\train  # train images (relative to 'path') 4 images
+val: C:\\Users\\igor8\\OneDrive\\Área de Trabalho\\Programação\\Projetos_python\\app_yolov8_detect\\app_yolov8_detect\\dataset_split\\val  # val images (relative to 'path') 4 images
+test: C:\\Users\\igor8\\OneDrive\\Área de Trabalho\\Programação\\Projetos_python\\app_yolov8_detect\\app_yolov8_detect\\dataset_split\\test # test images (optional)
+
+# Classes (80 COCO classes)
+names:
+  0: Emissões Fugitivas
