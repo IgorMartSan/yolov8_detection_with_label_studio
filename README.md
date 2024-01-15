@@ -15,6 +15,8 @@ poetry add --source pytorch torch torchvision
 
 ## Não use o poetry 
 
-E instalala na sequencia o 1 - pytorch e 2 - ultralitics
+Instalar na sequência:
+1 - pytorch  
+2 - ultralitics
 
-Na ultima vez precisei deletar o pytorch e o ultralitics
+Na ultima vez precisei deletar o pytorch e o ultralitics.
